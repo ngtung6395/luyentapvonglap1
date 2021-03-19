@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x=0;
+    let y=1;
+    let fibonacci;
+    let total=0;
+    // for (count=0;count<20;count++){
+    //     fibonacci=x;
+    //     x=y;
+    //     y=x+fibonacci;
+    //     total = total + fibonacci;
+    // }document.write(total);
+    let i=0;
+    while(i<20){
+        fibonacci=x;
+        x=y;
+        y=x+fibonacci;
+        total+=fibonacci;
+        i++;
+    }document.write(total);
+</script>
+</body>
+</html>
